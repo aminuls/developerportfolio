@@ -6,10 +6,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 span{
     color: orange;
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 150px;
     
@@ -40,4 +43,25 @@ p{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.shadow{
+    padding-left: 3%;
+    width: 40%;
+    box-shadow: 5px 5px 30px 2px grey;
+    height: 400px;
+    border-left: 7px solid blue;
+}
+.flex{
+    justify-content: space-evenly;
+}
+.flex div:first-child{
+    border-left: 7px solid salmon;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 75%;
+}
+footer p{
+    text-align: center;
 }
